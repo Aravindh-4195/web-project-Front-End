@@ -1,0 +1,146 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif; 
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+/* sections */
+.colored-section{
+    background-color:#87CBB9;
+    color:white;
+}
+.white-section{
+    background-color: #fff;
+}
+/* Title section */
+/* headings */
+.title-heading{
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding:0 0 5% 0;
+}
+.nav-item{
+    padding:0 18px;
+    font-size:1.2rem;
+    font-family: "Montserrat-thin",sans-serif;
+}
+.title-img{
+    width: 60%;
+    margin-left:13%;
+}
+@media (min-width:992px){
+    .title-heading{
+        text-align: left;
+    }
+    .title-img{
+         rotate:25deg;
+    }
+}
+/* features section */
+#features{
+    position:relative;
+    bottom:100px;
+}
+.features{
+    padding:10% 0 10% 0;
+    
+}
+.features-para{
+   
+        color: #8f8f8f;
+        width:70%;
+        margin: auto;
+   
+}
+.icon{
+    color:#ef8172;
+    font-size: 5rem;
+    padding-bottom: 5%;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+.features-name{
+    font-family:"Montserrat-bold",sans-serif;
+    font-weight: bold;
+    
+}
+/* testomonial section */
+#testimonials{
+    background-color: #ef8172;
+    
+    font-family: "Montserrat-bold",sans-serif;
+    padding: 7% 0;
+}
+.testimonial-img{
+    width:10%;
+    border-radius: 100%;
+    padding:1%;
+}
+.testimonial-text{
+    font-size:3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    width:60%;
+    margin:auto;
+}
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.pricing-text{
+    font-size:3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    width:60%;
+    margin:auto;
+}
+.press-logo{
+    width:13%;
+    padding:2%;
+}
+.carousel-control{
+    padding:5% 0;
+}
+.container{
+    padding:100px;
+    text-align: center;
+}
+.card-deck{
+    padding:5% 0;
+}
+/* call of action */
+.final-tag{
+    width:95%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* footer section */
+
+.footer-handles{
+    font-size: 1.5rem;
+    padding:1%;
+}
+.copyright{
+    padding:1%;
+    font-size:1.25rem;
+}
